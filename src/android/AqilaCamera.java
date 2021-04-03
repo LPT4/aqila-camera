@@ -57,7 +57,6 @@ public class AqilaCamera extends CordovaPlugin {
                     .skipConfirm()
                     .facing(Facing.BACK)
                     .focusMode(FocusMode.CONTINUOUS)
-                    .facingExactMatch()
                     .zoomStyle(ZoomStyle.PINCH)
                     .flashMode(FlashMode.OFF)
                     .to(new File(file))
